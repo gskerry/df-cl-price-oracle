@@ -10,6 +10,7 @@
     "format": "prettier --write \"**/*\"",
     "migrate:kovan": "npx truffle migrate --network kovan",
     "setup": "echo \"No setup required for @chainlink/box\"",
+    "flatten": "bash scripts/flatten.sh",
     "test": "npx truffle test"
   },
   "license": "MIT",
@@ -30,6 +31,7 @@
     "solc": "0.4.24",
     "solhint": "^2.1.0",
     "truffle": "^5.0.25",
+    "truffle-flattener": "^1.4.2",
     "truffle-hdwallet-provider": "^1.0.8"
   },
   "prettier": "@chainlink/prettier-config"
