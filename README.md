@@ -34,6 +34,8 @@ This POC creates an External Adapter that returns an invoice rate price based on
   docker run -p 6688:6688 -v PROJECT_PATH/.chainlink-kovan:/chainlink -it --env-file=.env smartcontract/chainlink local n -p /chainlink/.password -a /chainlink/.api
   ```
 
+For running a Chainlink node on GCP follow the instruction in https://medium.com/secure-data-links/running-chainlink-nodes-on-kubernetes-and-the-google-cloud-platform-1fab922b3a1a
+
 #### 2. Deploy an Chainlink Oracle
 
   - Follow the steps from [Chainlink Docs - Deploy your own Oracle contract](https://docs.chain.link/docs/fulfilling-requests#section-deploy-your-own-oracle-contract) and [Chainlink Docs - ](https://docs.chain.link/docs/fulfilling-requests#section-deploy-your-own-oracle-contract)
