@@ -7,3 +7,4 @@ fi
 mkdir -p flats
 
 ./node_modules/.bin/truffle-flattener contracts/InvoicePrice.sol > flats/InvoicePrice.sol
+./node_modules/.bin/truffle-flattener contracts/LtvRatio.sol > flats/LtvRatio.sol
