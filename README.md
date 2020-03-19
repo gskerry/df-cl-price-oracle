@@ -43,13 +43,13 @@ For running a Chainlink node on GCP follow the instruction in https://medium.com
 #### 3. Create Google Sheets Response Table
 
   - Organize your data in Google Sheets. Consolidate data to be returned to the oracle to facilitate queries. 
-  Follow the steps from [Google Sheets API documentation](https://developers.google.com/sheets/api/quickstart/nodejs) to enable API access to your spreadsheet. Save your <credentials.json> for token issuance. Be sure to note the URL to your spreadsheet (it includes the spreadsheet ID) 
+  Follow the steps from [Google Sheets API documentation](https://developers.google.com/sheets/api/quickstart/nodejs) to enable API access to your spreadsheet. Save your `credentials.json` for token issuance. Be sure to note the URL to your spreadsheet (it includes the spreadsheet ID) 
 
 #### 4. Deploy External Adapter function
 
   - Follow the steps from https://chainlinkadapters.com/guides/run-external-adapter-on-gcp for deploying the `external-adapter` as a Cloud Function in GCP.
 
-    **Note:** Be sure to add your credentials.json file and token.json file to your deployed zip. If token expires, be sure to run adapter code locally and redeploy adapter with refreshed token.
+    **Note:** Be sure to add your `credentials.json` file and `token.json` file to your deployed zip. If token expires, be sure to run adapter code locally and redeploy adapter with refreshed token.
 
 #### 5. Create bridge for the External Adapter
 
