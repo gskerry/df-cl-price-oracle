@@ -49,7 +49,7 @@ For running a Chainlink node on GCP follow the instruction in https://medium.com
 
   - Follow the steps from https://chainlinkadapters.com/guides/run-external-adapter-on-gcp for deploying the `external-adapter` as a Cloud Function in GCP.
 
-    **Note:** If token expires, be sure to run adapter code locally and redeploy adapter with refreshed token.
+    **Note:** Be sure to add your credentials.json file and token.json file to your deployed zip. If token expires, be sure to run adapter code locally and redeploy adapter with refreshed token.
 
 #### 5. Create bridge for the External Adapter
 
