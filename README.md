@@ -43,7 +43,7 @@ For running a Chainlink node on GCP follow the instruction in https://medium.com
 #### 3. Create Google Sheets Response Table
 
   - Organize your data in Google Sheets. Consolidate data to be returned to the oracle to facilitate queries. 
-  Follow the steps from [Google Sheets API documentation](https://developers.google.com/sheets/api/quickstart/nodejs) to enable API access to your spreadsheet. Be sure to note the URL to your spreadsheet (it includes the spreadsheet ID) 
+  Follow the steps from [Google Sheets API documentation](https://developers.google.com/sheets/api/quickstart/nodejs) to enable API access to your spreadsheet. Save your <credentials.json> for token issuance. Be sure to note the URL to your spreadsheet (it includes the spreadsheet ID) 
 
 #### 4. Deploy External Adapter function
 
