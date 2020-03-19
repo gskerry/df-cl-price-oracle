@@ -106,5 +106,3 @@ The contract can also be executed via Etherscan platform (https://kovan.ethersca
 #### 9. Check out the results
 
 `InvoiceRate` contract emits the event `LtvRatio(bytes32 indexed requestId, uint256 timestamp, uint256 price)` when the request to the External Adapter is fulfilled so go to https://kovan.etherscan.io/address/INVOCE_PRICE_CONTRACT_ADDRESS#events and check the event was emmited.
-
-.
